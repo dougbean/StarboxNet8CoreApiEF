@@ -1,0 +1,6 @@
+@StarboxNet8CoreApiEF_HostAddress = http://localhost:5257
+
+GET {{StarboxNet8CoreApiEF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
