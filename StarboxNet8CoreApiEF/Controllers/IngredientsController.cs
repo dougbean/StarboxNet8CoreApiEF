@@ -73,10 +73,17 @@ namespace StarboxNet8CoreApiEF.Controllers
         }       
 
         // DELETE api/<IngredientsController>/5
-        [HttpDelete("{id}")]       
+        [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> Delete(int id)
         {
+            var ingredient = await _ingredientService.GetIngredientAsync(id);
+            if (ingredient == null || ingredient.Id == 0)
+            {
+                return NotFound();
+            }
+
             await _ingredientService.DeleteIngredientAsync(id);
             return NoContent();
         }
