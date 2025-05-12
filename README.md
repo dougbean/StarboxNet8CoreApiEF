@@ -3,7 +3,7 @@
 This is the back end part of a simple barista or drink dispensing application. It is written on the .NET Framework 8.0. It uses WebAPI, Entity Framework and Sql Server.
 
 I have two front ends, one written with Angular and one with React. They can be found at the following urls.
-https://github.com/dougbean/starbox-angular-io-2025
+https://github.com/dougbean/starbox-angular-io-2025 <br>
 https://github.com/dougbean/starbox-reactjs-nextjs
 
 The requirements document is here - https://github.com/dougbean/StarboxNet8CoreApiEF/blob/main/StarboxLibraryNet8EF/Docs/Starbox.pdf
@@ -13,7 +13,7 @@ I followed the requirements more or less, though I used .NET for the back end ra
 The requirements document is a code challange presented to job applications of my former employer. I did it to practice and to learn new technologies, such as Angular and React; and to refresh my .NET skills. I strive to follow best practices.
 
 The scripts to create the database tables and to populate them are in the Scripts folder. 
-\StarboxLibraryNet8EF\Scripts\starbox-create-tables.sql 
+\StarboxLibraryNet8EF\Scripts\starbox-create-tables.sql <br>
 \StarboxLibraryNet8EF\Scripts\starbox-populate-tables.sql
 
 I used database first rather than model first approach to Entity Framework.
