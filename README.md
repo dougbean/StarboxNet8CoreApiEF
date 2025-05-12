@@ -18,7 +18,8 @@ The scripts to create the database tables and to populate them are in the Script
 
 I used database first rather than model first approach to Entity Framework.
 
-This is the command I used to generate the DbContext class and the model classes. PM> Scaffold-DbContext "Server=YOURSERVER;Database=StarboxDB;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -f
+This is the command I used to generate the DbContext class and the model classes. <br>
+PM> Scaffold-DbContext "Server=YOURSERVER;Database=StarboxDB;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -f
 
 The repository pattern is straightfoward and the service layer is for business logic.
 
