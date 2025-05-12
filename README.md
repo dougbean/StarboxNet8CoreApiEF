@@ -12,7 +12,7 @@ I followed the requirements more or less, though I used .NET for the back end ra
 
 The requirements document is a code challange presented to job applications of my former employer. I did it to practice and to learn new technologies, such as Angular and React; and to refresh my .NET skills. I strive to follow best practices.
 
-The scripts to create the database tables and to populate them are in the Scripts folder. 
+The scripts to create the database tables and to populate them are in the Scripts folder. <br>
 \StarboxLibraryNet8EF\Scripts\starbox-create-tables.sql <br>
 \StarboxLibraryNet8EF\Scripts\starbox-populate-tables.sql
 
