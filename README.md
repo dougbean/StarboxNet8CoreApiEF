@@ -24,3 +24,5 @@ PM> Scaffold-DbContext "Server=YOURSERVER;Database=StarboxDB;Trusted_Connection=
 The repository pattern is straightfoward and the service layer is for business logic.
 
 I use Dtos to keep the front end code from being dependent on the database entities.
+
+I added unit tests for the service layer.
